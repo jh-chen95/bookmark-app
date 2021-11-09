@@ -112,7 +112,7 @@ function storeBookmark(event) {
     websiteNameEl.focus();
 }
 
-// Event listener
+// Event listener for submit
 bookmarkForm.addEventListener("submit", storeBookmark);
 
 // On load, fetch bookmarks
